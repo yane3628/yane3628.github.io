@@ -1,0 +1,72 @@
+/* By: Yanelis Lopez */
+
+body {
+	background: url(background.jpg);
+	background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  text-align: center;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: white;
+
+  height: 100%;
+
+	padding-bottom: 140px;
+}
+
+/* Styling for elements with information */
+.section {
+	background: #000014;
+	padding: 30px 0;
+	font-size: 16px;
+}
+
+/* Styling for text in section */
+.section-text {
+	padding-left: 30px 0;
+	padding-right: 30px 0;
+}
+
+/* Styling for titles in section */
+.section-title {
+	color: #7EDFFF;
+}
+
+/* Provides padding between sections */
+.space {
+	padding: 90px 0;
+}
+
+.icon {
+	font-size: 30px;
+}
+
+/* To center elements vertically on page */
+.vertical-center {
+  width: 500px;
+  height: 500px;
+
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+/* Styling for footer on page */
+.footer {
+	margin: auto;
+	position: fixed;
+	margin: auto;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 55px;
+
+	padding-top: 5px;
+	background-color: black;
+}
