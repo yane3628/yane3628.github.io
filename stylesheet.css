@@ -43,6 +43,18 @@ body {
 	font-size: 30px;
 }
 
+/* Properties to crossfade images */
+/*.crossfade {
+    position: relative;
+}
+.crossfade img {
+    position: absolute;
+    transition: opacity 1s ease;
+}
+.crossfade img:hover {
+    opacity: 0;
+}*/
+
 /* To center elements vertically on page */
 .vertical-center {
   width: 500px;
@@ -55,6 +67,12 @@ body {
   right: 0;
 
   margin: auto;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Styling for footer on page */
